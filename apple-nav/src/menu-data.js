@@ -35,7 +35,7 @@ const data = [
 			},
 			{
 				name: "iPad",
-				slug: "ipad"
+				slug: "ipad2"
 			},
 			{
 				name: "iPad Mini",
