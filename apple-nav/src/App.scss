@@ -1,0 +1,41 @@
+.nav-wrapper,
+.sub-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	background: black;
+	color: white;
+}
+
+a {
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+
+	&:visited {
+		color: white;
+	}
+
+	&:hover,
+	&.active {
+		opacity: 0.65;
+	}
+
+	color: white;
+}
+
+.child {
+	// background: blue;
+}
+
+.nav {
+	display: block;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+}
